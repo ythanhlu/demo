@@ -10,3 +10,7 @@ hist(as.numeric(as.matrix(data_impute)), breaks = 100,
      main = "Distribution AFTER IMPUTATION",
      xlab = "log2-transformed")
 par(mfrow = c(1, 1))   # Reset
+
+usethis::use_git_config(user.name = "ythanhlu", user.email = "ythanhlu@.gmail.com")
+
+library(data.table)
